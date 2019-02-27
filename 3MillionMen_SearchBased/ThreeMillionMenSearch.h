@@ -2,11 +2,12 @@
 #include <memory>
 #include <list>
 #include <unordered_map>
+#include <map>
 
 class three_million_men_search
 {
 public:
-	using name_map = std::unordered_map<std::string, std::string>;
+	using name_map = std::map<std::string, std::string>;
 	using name_list = std::list<std::string>;
 
 	three_million_men_search(std::unique_ptr<name_map>&);
